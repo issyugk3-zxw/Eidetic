@@ -201,10 +201,10 @@ Application / Agent Framework
 | System | Extra | Persistence | LLM required | Graph-based | Notes |
 |---|---|---|---|---|---|
 | **SQLite** *(built-in)* | — | ✅ disk (WAL) | ✗ | ✗ | Default fallback, FTS5 search |
-| **Letta** | `eidetic[letta]` | ✅ server DB | ✗ | ✗ | Requires `letta server` running |
-| **GraphRAG** | `eidetic[graphrag]` | ✅ disk index | ✅ | ✅ | Batch indexing; call `build_index()` after ingest |
-| **LightRAG** | `eidetic[lightrag]` | ✅ `working_dir` | ✅ | ✅ | Recall returns synthesised answer string |
-| **HippoRAG** | `eidetic[hipporag]` | ✅ `save_dir` | ✅ | ✅ | Reindexes on every `ingest`; use for read-heavy workloads |
+| **[Letta](https://github.com/letta-ai/letta)** | `eidetic[letta]` | ✅ server DB | ✗ | ✗ | Requires `letta server` running |
+| **[GraphRAG](https://github.com/microsoft/graphrag)** | `eidetic[graphrag]` | ✅ disk index | ✅ | ✅ | Batch indexing; call `build_index()` after ingest |
+| **[LightRAG](https://github.com/HKUDS/LightRAG)** | `eidetic[lightrag]` | ✅ `working_dir` | ✅ | ✅ | Recall returns synthesised answer string |
+| **[HippoRAG](https://github.com/OSU-NLP-Group/HippoRAG)** | `eidetic[hipporag]` | ✅ `save_dir` | ✅ | ✅ | Reindexes on every `ingest`; use for read-heavy workloads |
 
 ### Backend-specific notes
 
