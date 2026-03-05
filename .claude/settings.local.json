@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import eidetic; print\\(''core import OK''\\); from eidetic import MemoryManager, SqliteBackend, Document, MemoryEvent, RecallQuery; print\\(''public API OK''\\)\")",
+      "Bash(python -c \":*)",
+      "Bash(python -m pytest tests/ -x -q)",
+      "Bash(python -m pytest -q)"
+    ]
+  }
+}

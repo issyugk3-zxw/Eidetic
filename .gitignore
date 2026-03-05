@@ -1,0 +1,79 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# uv
+.python-version
+
+# Distribution / packaging
+*.whl
+
+# Testing & coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.junit.xml
+
+# SQLite databases (eidetic persistent / sidecar DBs)
+*.db
+*.db-shm
+*.db-wal
+
+# LightRAG working directories
+lightrag_data/
+lightrag_*/
+
+# GraphRAG working directories
+graphrag_data/
+graphrag_*/
+# GraphRAG index output
+output/
+input/
+
+# HippoRAG save directories
+hipporag_data/
+hipporag_*/
+
+# Letta local data
+letta_data/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Secrets / env files
+.env
+.env.*
+!.env.example
